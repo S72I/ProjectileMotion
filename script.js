@@ -95,7 +95,7 @@ function showBoomMessage() {
   boom.className = 'boom-text';
   boom.textContent = '💥 BOOM!';
   document.body.appendChild(boom);
-  setTimeout(() => boom.remove(), 5000);
+  setTimeout(() => boom.remove(), 1000);
 }
 
 function drawTarget() {
